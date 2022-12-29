@@ -10,7 +10,7 @@ fn main() -> std::io::Result<()> {
             lnd_rpc_dir_owned = lnd_rpc_dir;
             lnd_rpc_dir_owned.display().to_string()
         }
-        None => "vendor".to_string(),
+        None => "lnrpc".to_string(),
     };
 
     let protos = vec![
