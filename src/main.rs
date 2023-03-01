@@ -4,7 +4,7 @@
 // This program accepts four arguments: host, port, cert file, macaroon file
 //  cargo run localhost 10006 /home/ash/.polar/networks/1/volumes/lnd/frank/tls.cert /home/ash/.polar/networks/1/volumes/lnd/frank/data/chain/bitcoin/regtest/admin.macaroon
 
-use tonic_openssl_lnd::lnrpc::{ListPeersRequest, OpenChannelRequest};
+use tonic_openssl_lnd::lnrpc::{OpenChannelRequest};
 
 #[tokio::main]
 async fn main() {
